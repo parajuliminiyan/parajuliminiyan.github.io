@@ -6,6 +6,6 @@ $subject = $_POST['subject'];
 $txt = $name . $_POST['message'];
 $headers = "From: ". $_POST['email'];
 mail($to,$subject,$txt,$headers);
-header('Location: ' . $_SERVER['HTTP_REFERER'])
+header('Location: https://parajuliminiyan.github.io/'])
 }
 ?>
